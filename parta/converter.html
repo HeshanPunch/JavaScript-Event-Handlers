@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter Tool</title>
+    
+    <link rel="stylesheet" type= "text/css" href="style.css">
+    <script src="JSconverter.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Play&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+        <h1 >Heshan's <br> Unit Converter</h1>
+        
+        <h3 >Select units and values and click convert</h3>
+        <hr/>
+        <form class="formTxt" name="form"> 
+            <div>
+                
+                
+                <!-- select the units -->
+                <div class="spaced">
+                    <select name="unitSelect">
+                        <option value="select">Select the Conversion Units</option>
+                        <option value="kmMile">Kilometers to Miles</option>
+                        <option value="mileKm">Miles to Kilometers</option>
+                        <option value="kgLb">Kilograms to Pounds</option>
+                        <option value="lbKg">Pounds to Kilograms</option>
+                        <option value="cmIn">Centimeters to Inches</option>
+                        <option value="inCm">Inches to Centimeters</option>
+                        <option value="mY">Meters to Yards</option>
+                        <option value="yM">Yards to Meters</option>
+                        
+                    </select>
+                </div>
+                
+                <!-- unit entered field -->
+                <div>
+                    
+                    <input name="UserValue" class="input" id="UserValue" placeholder="Enter Value">
+                </div>
+                
+                
+                <!-- Buttons -->             
+                <div>
+                    <br><input type="button" value="Convert" onclick="convertUnits()"> 
+                    <input type="reset" value="Reset"><br><br>
+                </div>
+                
+                <!-- Result -->
+                <div>
+                    <label class="formTxt">Result</label> <br>
+                    
+                    <input id="super" name="result" class="input" >
+                    
+                </div>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>

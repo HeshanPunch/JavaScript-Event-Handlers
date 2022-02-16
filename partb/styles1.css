@@ -1,0 +1,83 @@
+/* This is for my styles for lab 2 part - B */
+
+/* and include a background colour, pattern or image  */
+body{
+    background-image: url("../photos/ocean.jpg");
+    background-size: 2000px 2000px;
+    background-repeat:repeat;
+    
+    
+    
+}
+
+
+
+.photosR{
+    
+    float:right;
+    margin-right: 20%; /* Arrange the pictures that they are indented 20% from either left or right margin.  */
+    margin-top: auto;
+    margin-bottom: 5rem;
+    padding-bottom: 20%;
+    
+    
+}
+.photosL{
+    display: block;
+    float:left;
+    margin-left: 20%; /* Arrange the pictures that they are indented 20% from either left or right margin.  */
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-bottom: 5rem;
+    padding-bottom: 20%;
+    
+}
+.p1{
+    
+    height: 450px;
+    width: 350px;
+    padding: 10px;
+    background-color: white;
+    
+    
+    
+}
+
+/* The <figcaption> will include a title and explanation of the picture and be centred within the tag */
+figcaption{
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    background-color:rgba(50, 50, 50, 0.750);
+    width: 370px;
+    caption-side: top;
+        margin-top: auto;
+    margin-bottom: auto;
+    display: none;
+    
+}
+
+
+
+
+.t1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: rgb(50, 50, 50);
+    text-align: right;  
+    
+}
+
+/* Use a unique font style (e.g. Google Fonts)*/
+h2{
+    font-family: 'Indie Flower', cursive; 
+    color: rgb(70, 70, 70);
+    letter-spacing: 1px;
+    font-size: 300% ;
+    text-align: center;    
+}
+
+
+
